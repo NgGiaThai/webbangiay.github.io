@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: auto;
+    
+    background-image: url("anhnen.webp");
+}
+header{
+   
+    color: aliceblue;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.a{
+    width: 450px;
+    height: 500px;
+
+}
+.giay{
+    margin-bottom: 30px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;font-weight: bolder;
+}
+nav li{margin-right:20px ;}
+nav li:hover{background-color: rgb(10, 10, 10);padding: 10px;}
+.logo{width: 50px;height: 40px;}
+nav .a{
+    color: aqua;
+    text-decoration: none;
+}
+h1{margin: 20px 15px 10px o;
+text-align: center;
+text-transform: uppercase;
+font-size: 40px;}
+main {padding: 50px; 
+}
+
+.section p{
+    text-align: center;    
+}
+.h2{
+    color: white;
+}
+.section p,h3{
+    background-color: blue;
+    color: chartreuse;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.section h{margin: 0 0 10px;}
+.flim{display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.anh{width: 250px; height: 300px;}
+form{
+    background-color: aliceblue;
+    width: 100%;
+}
+.dathang{
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    margin: auto;
+}
+
+.root li a{
+    text-decoration: none;
+    color: rgb(247, 244, 250);
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+   
+    font-size:20px;
+}
+
+li{list-style: none;}
+.submenu{
+    width: 250px;
+    background-color: #0babd3;
+    min-height: 8px;
+    display: none;
+    position: absolute;
+    font-size: 15px;
+}
+.submenu2{
+    width: 150px;
+    background-color: #0babd3;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+    font-size: 15px;
+    text-align: left;
+}
+.submenu li{list-style: none;}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: snow;
+    display: block;
+    border: 1px solid #ccc;
+    line-height: 30px;
+}
+.submenu2 li {list-style: none;
+    text-align: left;
+}
+
+.submenu2 li a{
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    border: 1px solid ;
+    line-height: 20px;
+
+}
+.root>li:hover .submenu2{
+    display: block;
+    background-color: #cf1d6a;
+    color: rgb(239, 7, 7);
+    transform: ease-in 0.35s;
+}
+.submenu2>li>a:hover{
+    background-color: rgb(15, 225, 29);
+    color: rgb(226, 91, 91);
+    transform: ease-in 0.35s;
+}
+.root>li:hover .submenu{
+    display: block;
+    background-color: #ad119d;
+    color: rgb(239, 7, 7);
+    transform: ease-in 0.35s;
+}
+.submenu>li>a:hover{
+    background-color: rgb(15, 225, 29);
+    color: rgb(226, 91, 91);
+    transform: ease-in 0.35s;
+}
+.dathang{
+    font-size: 30px;
+    color: rgb(11, 11, 11);
+    width: 100%;
+    background-color: azure;
+}
